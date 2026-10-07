@@ -1,0 +1,8 @@
+# N-ATLaS playground -- runtime dependencies
+gradio>=4.0.0
+requests>=2.31.0
+
+# Optional: enables the RealNatlasClient secondary route
+# (huggingface_hub.InferenceClient with model="NCAIR1/N-ATLaS"). The primary
+# route uses NATLAS_ENDPOINT via `requests` above. Mock mode needs neither.
+# huggingface_hub>=0.24

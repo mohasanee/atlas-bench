@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Gradio / N-ATLaS playground
+.gradio/
+.huggingface/
+hf_token
+token.txt
