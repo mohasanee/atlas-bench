@@ -1,0 +1,107 @@
+{
+  "note": "These are hand-written SAMPLE outputs, NOT real N-ATLaS model output. They exist so the playground can run and be deployed while the gated NCAIR1/N-ATLaS endpoint is unavailable. Every entry is marked \"sample\": true.",
+  "default_language": "en",
+  "fallback": true,
+  "samples": [
+    {
+      "id": "en-weather",
+      "language": "en",
+      "language_name": "English",
+      "task": "general",
+      "label": "sample",
+      "sample": true,
+      "prompt": "What's the weather like today?",
+      "response": "I do not have access to live weather data, but I can help you find a weather service or explain how to check the forecast for your area."
+    },
+    {
+      "id": "en-thanks",
+      "language": "en",
+      "language_name": "English",
+      "task": "general",
+      "label": "sample",
+      "sample": true,
+      "prompt": "Tell me about Nigeria.",
+      "response": "Nigeria is a country in West Africa, known for its diverse cultures, over 500 languages, and a large economy. Its capital is Abuja, and Lagos is its biggest commercial city."
+    },
+    {
+      "id": "ha-weather",
+      "language": "ha",
+      "language_name": "Hausa",
+      "task": "general",
+      "label": "sample",
+      "sample": true,
+      "prompt": "Yanayin yau yaya yake?",
+      "response": "Ba ni da damar duba yanayin yau kai tsaye, amma zan iya taimaka maka duba shafin yanar gizon yanayi ko kuma in bayyana maka yadda ake samun hasashen yanayi a yankin ka."
+    },
+    {
+      "id": "ha-thanks",
+      "language": "ha",
+      "language_name": "Hausa",
+      "task": "general",
+      "label": "sample",
+      "sample": true,
+      "prompt": "Na gode",
+      "response": "Babu magana! Ina cikin jin daɗin taimaka maka. Shin akwai wani abin da kake so in taimake ka da shi?"
+    },
+    {
+      "id": "yo-greeting",
+      "language": "yo",
+      "language_name": "Yoruba",
+      "task": "general",
+      "label": "sample",
+      "sample": true,
+      "prompt": "Ẹ kú àárọ̀",
+      "response": "Ẹ n lẹ! Mo ṣeun fun wiwo rẹ. Bawo ni MO ṣe le ran ọ lọwọ loni?"
+    },
+    {
+      "id": "yo-trans",
+      "language": "yo",
+      "language_name": "Yoruba",
+      "task": "translation",
+      "label": "sample",
+      "sample": true,
+      "prompt": "Translate this into Yoruba: Good morning, my name is Chidi.",
+      "response": "Aa rọ̀, orúkọ mi ni Chidi."
+    },
+    {
+      "id": "ig-trans",
+      "language": "ig",
+      "language_name": "Igbo",
+      "task": "translation",
+      "label": "sample",
+      "sample": true,
+      "prompt": "Translate this into Igbo: Good morning, my name is Chidi.",
+      "response": "Ọ dị mma ụtụtụ, aha m bụ Chidi."
+    },
+    {
+      "id": "ig-welcome",
+      "language": "ig",
+      "language_name": "Igbo",
+      "task": "general",
+      "label": "sample",
+      "sample": true,
+      "prompt": "Nnọọ",
+      "response": "Nnọọ! Olee ka m nwere ike isi nyere gị aka taa?"
+    },
+    {
+      "id": "pcm-greeting",
+      "language": "pcm",
+      "language_name": "Nigerian Pidgin",
+      "task": "general",
+      "label": "sample",
+      "sample": true,
+      "prompt": "How you dey?",
+      "response": "I dey o! Tank you for ask. Abeg, wetin I fit help you with today?"
+    },
+    {
+      "id": "pcm-trans",
+      "language": "pcm",
+      "language_name": "Nigerian Pidgin",
+      "task": "translation",
+      "label": "sample",
+      "sample": true,
+      "prompt": "Translate this into Nigerian Pidgin: Good morning, my name is Chidi.",
+      "response": "Good morning o, my name na Chidi."
+    }
+  ]
+}
